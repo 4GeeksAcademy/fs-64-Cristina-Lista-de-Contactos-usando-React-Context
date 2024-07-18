@@ -9,7 +9,7 @@ const Card = ({name, phone, email, address, id}) => {
     return (
         <div className="card-container">
         <div className="card">
-            <img style={{width:"18rem"}} src="https://img.freepik.com/foto-gratis/peluqueria-femenina-pasar-buen-rato-trabajo-foto-estudio-atractiva-mujer-moderna-peinado-bollo-dedos-cerca-labios-sonriendo-ampliamente-mientras-mira-lado-hablando-companero-trabajo_176420-13869.jpg?ga=GA1.1.400438198.1718467393&semt=ais_user" className="card-img-top" alt="..." />
+            <img style={{width:"18rem"}} src="https://cdn.fanartland.com/drawings/fA34gUUkXccp6XNW7ypw68DM2o7pXd1a7mRgVyz0.webp?w=768" className="card-img-top" alt="..." />
             <div className="card-body">
                 <h5 className="card-title">{name}</h5>
                 <p className="card-text">{phone}</p>
